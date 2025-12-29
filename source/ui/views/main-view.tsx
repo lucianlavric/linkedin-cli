@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Text } from 'ink';
 
-export function LinkedInMain({ cli }: { cli: any }) {
+export function LinkedInMain({ cli: _cli }: { cli: any }) {
 	// Placeholder: parse cli input and show appropriate view
 	return (
 		<Box flexDirection="column">

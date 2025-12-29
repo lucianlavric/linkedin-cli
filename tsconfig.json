@@ -11,5 +11,12 @@
 		"resolveJsonModule": true,
 		"typeRoots": ["./source/types", "node_modules/@types"]
 	},
-	"include": ["./source"]
+	"include": ["./source"],
+	"ts-node": {
+		"transpileOnly": true,
+		"files": true,
+		"experimentalResolver": true,
+		"experimentalSpecifierResolution": "node"
+	}
 }
+
